@@ -1,0 +1,40 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  padding: 48px 120px;
+  border: 15px solid #d46ab2;
+  border-radius: 90px;
+  background: #ee7dcc;
+  color: #ffffff;
+  font: inherit;
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+button:hover {
+  border-color: #6d3158;
+  background: #ae568e;
+}
+
+button:focus-visible {
+  outline: 4px solid #222222;
+  outline-offset: 5px;
+}
+
+@media (max-width: 650px) {
+  button {
+    padding: 28px 60px;
+    border-width: 10px;
+    font-size: 36px;
+  }
+}

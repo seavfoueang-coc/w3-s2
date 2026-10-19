@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <article class="profile-card">
+      <header class="profile-card__header">
+        <span class="availability" style="background-color: #ffffff; color: #2563eb;">
+          <span class="availability__dot"></span>
+          Available
+        </span>
+      </header>
+
+      <div class="profile-card__content">
+        <div class="photo-frame">
+          <div class="photo-crop">
+            <img
+              class="profile-card__photo"
+              src="profile-photo.png"
+              alt="Profile portrait of EANG SEAVFOU"
+            />
+          </div>
+          <span class="verified" aria-label="Verified profile">✓</span>
+        </div>
+
+        <h1>EANG SEAVFOU</h1>
+        <p class="role">Front-end Developer</p>
+        <p class="location">Phnom Penh, Cambodia</p>
+
+        <p class="bio">
+          I create clean, responsive, and accessible web experiences with
+          thoughtful details and user-friendly interactions.
+        </p>
+
+        <div class="skills" aria-label="Skills">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>UI Design</span>
+        </div>
+
+        <dl class="profile-stats">
+          <div>
+            <dt>Projects</dt>
+            <dd>24</dd>
+          </div>
+          <div>
+            <dt>Following</dt>
+            <dd>128</dd>
+          </div>
+          <div>
+            <dt>Followers</dt>
+            <dd>536</dd>
+          </div>
+        </dl>
+
+        <button type="button">View Profile</button>
+      </div>
+    </article>
+  </body>
+</html>
